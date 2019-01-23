@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Showpo_OnlinePayment>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Showpo_OnlinePayment>
+    </modules>
+</config>

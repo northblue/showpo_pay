@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+   <modules>
+      <Showpo_OnlinePayment>
+         <version>0.1.0</version>
+      </Showpo_OnlinePayment>
+   </modules>
+   <global>
+      <helpers>
+         <showpo_onlinepayment>
+            <class>Showpo_OnlinePayment_Helper</class>
+         </showpo_onlinepayment>
+      </helpers>
+      <blocks>
+         <showpo_onlinepayment>
+            <class>Showpo_OnlinePayment_Block</class>
+         </showpo_onlinepayment>
+      </blocks>
+      <models>
+         <showpo_onlinepayment>
+            <class>Showpo_onlinePayment_Model</class>
+         </showpo_onlinepayment>
+      </models>
+   </global>
+   <default>
+      <payment>
+         <showpo_pay>
+            <active>1</active>
+            <title>Showpo Online Pay</title>
+            <order_status>processing</order_status>
+            <model>showpo_onlinepayment/payment</model>
+         </showpo_pay>
+      </payment>
+   </default>
+</config>
